@@ -1,0 +1,6 @@
+<div id='champ'>
+	
+	<label >Identifiant</label> :<input type="text" name="identifiant" />
+	<label >Mot de passe</label> :<input type="text" name="identifiant" />
+
+</div>

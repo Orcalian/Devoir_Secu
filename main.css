@@ -1,0 +1,293 @@
+body
+{
+	height: 100%;
+	width: 100%;
+	margin: 0%;
+	padding: 0%;
+}
+
+#container
+{
+	border: 1px black solid;
+	height: 70%;
+	width: 50%;
+	margin-top: 10%;
+	margin-left: 25%;
+	padding: 0%;
+	display: flex;
+	flex-direction: column;
+}
+
+#logo
+{
+	height: 40%;
+	width:  25%;
+}
+
+#logo>img
+{
+	height: 100%;
+	width:  100%;
+}
+
+#button
+{
+	display: flex;
+}
+
+#champs
+{
+	margin: 5%
+}
+
+form
+{
+	margin: 5%
+}
+
+#menu_selection
+{
+	border: 1px black solid;
+	width: 20%;
+	height: 99.8%;
+}
+
+.bouton_container
+{
+	padding-top: 6%;
+	height: 11.7%;
+	margin: 0%;
+}
+
+.bouton_menu
+{
+	width: 80%;
+	height: 100%;
+	font-size: large;
+	margin-left: 10%;
+	
+}
+
+#menu_resume
+{
+	width: 80%;
+	height: 100%;
+	padding: 0%;
+	margin: 0%;
+}
+
+.resume_player_container
+{
+	display: flex;
+	border: 1px black solid;
+	height: 24.8%;
+	width : 100%;
+}
+
+.portrait_player
+{
+	width: 12%;
+	border-right: 1px black solid;
+}
+
+.resume_player
+{
+	height: 100%;
+	width : 88%;
+}
+
+.hp_player
+{
+	display: flex;
+	border-bottom: 1px black solid;
+	align-items: center;
+	justify-content: center;
+	height: 33%;
+}
+
+.mp_player
+{
+	display: flex;
+	border-bottom: 1px black solid;
+	align-items: center;
+	justify-content: center;
+	height: 33%;
+}
+
+.statut_player
+{
+	display: flex;
+	height: 33%;
+}
+
+.physic_statut_player
+{
+	border-right: 1px black solid;
+	width: 50%;
+}
+
+
+
+#menu_etat
+{
+	display:  flex;
+	width: 80%;
+	height: 100%;
+	padding: 0%;
+	margin: 0%;
+}
+
+#fiche_etat
+{
+	width: 80%;
+	height: 100%;
+	padding: 0%;
+	margin: 0%;
+}
+
+.bouton_etat_container
+{
+	width: 10%;
+	height: 10%;
+	margin-top: 30%;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+.bouton_etat_container>form
+{
+	width:  100%;
+	height: 100%;
+}
+
+.bouton_etat_container>form>input
+{
+	width:  100%;
+	height: 100%;
+}
+
+#fiche_etat
+{
+	border: 1px black solid;
+	height: 99%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.name_hero
+{
+	border-bottom: 1px black solid;
+	width:  80%;
+	height: 10%;
+}
+
+.hp_hero
+{
+	margin-top: 1%;
+	width:  20%;
+	height: 5%;
+	display: flex;
+	justify-content: center;
+}
+
+
+.mp_hero
+{
+	margin-top: 1%;
+	width:  20%;
+	height: 5%;
+	display: flex;
+	justify-content: center;
+}
+
+
+#bloc_phy
+{
+	margin-top: 1%;
+	width:  80%;
+	height: 20%;
+	display: flex;
+	align-items: center;
+}
+
+.carac_hero
+{
+	width:  50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.stat_hero
+{
+	width:  50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.equip_hero
+{
+	margin-top: 2%;
+	width:  50%;
+	height: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.phy_hero
+{
+	width:  80%;
+	height: 10%;
+}
+
+.case_phy_container
+{
+	width:  100%;
+	height: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.case_phy
+{
+	border: 1px black solid;
+	width:  9%;
+	height: 100%;
+}
+
+.psy_hero
+{
+	width:  80%;
+	height: 10%;
+}
+
+.case_psy_container
+{
+	width:  100%;
+	height: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.case_psy
+{
+	border: 1px black solid;
+	width:  9%;
+	height: 100%;
+}
+
+.image_statut_phy
+{
+	padding: 0%;
+	margin: 0%;
+	width: 100%;
+	height: 100%;
+}
